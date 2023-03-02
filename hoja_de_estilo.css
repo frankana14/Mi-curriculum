@@ -1,0 +1,165 @@
+/** Acá tengo que agregar tipografía de Google Fonts, utilizar una foto mía e ilustrar con íconos de Font Awesome 
+**/
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FFF8F9;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF8F9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li{
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: #E56C7A;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #F6D7EC;
+}
+
+#seccionInicio{
+    background-color: #D382B9;
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+#fotoDePerfil {
+    padding: 1%;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 30%;
+}
+
+#seccionInicio h2{
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 1%;
+    color: rgb(32, 31, 31);
+}
+
+#bandera_Arg {
+    padding: 1%;
+    border-radius: 20%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 10%;
+}
+
+#acercaDeMi {
+    background-color: #FFE8E8;
+    padding: 5%;
+}
+
+#acercaDeMi h3{
+    text-align: center;
+    padding: 1%;
+    color: rgb(20, 20, 20);
+    font-size: xx-large;
+    font-family: 'Lora', serif;
+}
+
+#acercaDeMi p{
+    text-align: center;
+    padding: 1%;
+    color: rgb(20, 20, 20);
+}
+
+#conocimientos {
+    background-color: #E3BAB9;
+    padding: 2%;
+}
+
+#conocimientos h3{
+    text-align: center;
+    padding: 2%;
+    font-size: xx-large;
+    color: rgb(20, 20, 20);
+    font-family: 'Lora', serif;
+}
+
+#conocimientos ul{
+    padding: 1%;
+    list-style-type: none;
+    text-align: center;
+}
+
+#conocimientos li{
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+}
+
+.logos {
+    width: 190px;
+    height: 190px;
+}
+
+@media only screen and (max-width: 450px) {
+    .logos {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+footer {
+    background-color: #FDDEE1;
+    padding: 2%;
+}
+
+footer h3{
+    font-size: xx-large;
+    text-align: center;
+    padding: 2%;
+    color: rgb(20, 20, 20);
+    font-family: 'Lora', serif;
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 2%;
+    color: #ec2d4de0;
+    font-size: 17px;
+}
+
+#caja_redes {
+    text-align: center;    
+}  
+
+.redes {
+    height: 25px;
+    width: auto;
+    padding-inline: 20px;
+    color: rgba(rgba(255, 0, 0, 0), rgba(0, 128, 0, 0), rgba(0, 0, 255, 0), alpha);
+}
+
+#imagen_final {
+    padding: 3%;
+    border-radius: 10%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 40%;
+}
